@@ -1,0 +1,36 @@
+.header h1 {
+  margin-top: 10px;
+  font-family: "Montserrat";
+  font-size: 60px;
+}
+
+.main {
+  display: grid;
+  margin-top: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.main-content {
+  height: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background: grey;
+  -webkit-box-shadow: 0px 0px 3px 3px grey;
+          box-shadow: 0px 0px 3px 3px grey;
+}
+.main-content h5 {
+  margin-top: 10px;
+  margin-left: 5px;
+  color: #f2efef;
+  font-family: "Montserrat";
+}
+.main-content button {
+  padding: 8px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 30px;
+  border: 1px solid black;
+  color: #3b0e0e;
+}
